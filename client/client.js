@@ -24,6 +24,7 @@ const handleResponse = (response) => {
             h1.innerText = response.status === 200 ? 'Success' : `${parsedXML.querySelector('id').textContent}`;
             p.innerText = `Message: ${parsedXML.querySelector('message').textContent}`;
         }
+        
 
         content.appendChild(h1);
         content.appendChild(p);
