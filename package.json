@@ -1,0 +1,24 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "430 hw",
+  "main": "src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InaneOrca47/http-api-assignment.git"
+  },
+  "author": "Ben Kingsley",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/InaneOrca47/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/InaneOrca47/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
